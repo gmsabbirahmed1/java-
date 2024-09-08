@@ -12,7 +12,7 @@ public class Main {
         int num3 = sab.nextInt();
         int sum =  num1 + num2 + num3;
 
-        System.out.println("the sum of three number  is == "+ sum);
+        System.out.println("The sum of three number  is == "+ sum);
 
     }
 }
