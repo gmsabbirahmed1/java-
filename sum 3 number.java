@@ -1,15 +1,18 @@
+package FirstPackage;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args)
-    {   Scanner sc=new Scanner(System.in);
-        System.out.print("Enter 3 numbers ");
-        int a= sc.nextInt();
-        int b= sc.nextInt();
-        int c= sc.nextInt();
+    public static void main(String[] args) {
+        Scanner sab = new Scanner(System.in);
+        System.out.print("Enter number 1: ");
+        int num1 = sab.nextInt();
+        System.out.print("Enter number 2: ");
+        int num2 = sab.nextInt();
+        System.out.print("Enter number 3: ");
+        int num3 = sab.nextInt();
+        int sum =  num1 + num2 + num3;
 
-        int sum = a + b + c;
-        System.out.print("sum of those 3 numbers: ");
-        System.out.println(sum);
+        System.out.println("the sum of three number  is == "+ sum);
+
     }
 }
