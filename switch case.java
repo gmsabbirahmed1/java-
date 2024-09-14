@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class conditional {
     public static void main(String[] args) {
         byte a;
-        System.out.print("Enter a number between 1-6: ");
+        System.out.print("Enter a number between 1-7: ");
         Scanner sc= new Scanner(System.in);
          a = sc.nextByte();
         switch(a){
