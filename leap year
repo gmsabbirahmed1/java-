@@ -1,0 +1,19 @@
+package FirstPackage;
+
+import java.util.Scanner;
+public class conditional {
+    public static void main(String[] args) {
+   int year;
+
+   System.out.println("Enter any year to check leap year : ");
+   Scanner input =  new Scanner(System.in);
+   year = input.nextInt();
+
+   if((year % 4 == 0 ) && (year % 100 != 0) || (year % 400 == 0)){
+       System.out.printf("%d is leap year.", year);
+   }
+   else {
+       System.out.printf("%d is not leap year.", year);
+   }
+    }
+}
